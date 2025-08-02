@@ -1,0 +1,21 @@
+🔹 Purpose
+Filter records that match specific conditions.
+
+🔹 Syntax
+sql
+Копировать
+Редактировать
+SELECT *
+FROM students
+WHERE age > 18;
+🔹 Logical Operators
+Operator	Meaning
+=	Equal
+!= or <>	Not equal
+> < >= <=	Comparisons
+AND, OR, NOT	Combine conditions
+
+✅ Practice
+Get students from 'New York'.
+
+Get students who are female and older than 15.
