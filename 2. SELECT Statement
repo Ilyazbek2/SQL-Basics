@@ -1,0 +1,13 @@
+### 🔹 Basic Syntax
+```sql
+SELECT column1, column2
+FROM table_name;
+🔹 Select All Columns
+sql
+Копировать
+Редактировать
+SELECT * FROM students;
+✅ Practice
+Select only first_name and last_name from students.
+
+Select all columns from employees.
