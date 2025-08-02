@@ -1,0 +1,21 @@
+What is SQL?
+
+**SQL (Structured Query Language)** is the standard language used to manage and manipulate relational databases. SQL can be used to:
+
+- **Create** databases and tables
+- **Insert** data into tables
+- **Query** and retrieve data
+- **Update** or **delete** data
+- **Control** access and manage schemas
+
+### ✨ Common SQL Commands:
+| Command   | Description                  |
+|-----------|------------------------------|
+| `SELECT`  | Retrieve data from a table   |
+| `INSERT`  | Add new records              |
+| `UPDATE`  | Modify existing data         |
+| `DELETE`  | Remove records               |
+| `CREATE`  | Create new tables/databases  |
+| `DROP`    | Delete tables/databases      |
+
+---
