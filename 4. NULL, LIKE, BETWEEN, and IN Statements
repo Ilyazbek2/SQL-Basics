@@ -1,0 +1,48 @@
+🔹 NULL
+A NULL value means missing or unknown.
+
+sql
+Копировать
+Редактировать
+SELECT *
+FROM students
+WHERE mother_phone IS NULL;
+🔹 LIKE
+Pattern matching using % and _.
+
+sql
+Копировать
+Редактировать
+SELECT *
+FROM students
+WHERE first_name LIKE 'A%';
+% = any number of characters
+
+_ = single character
+
+🔹 BETWEEN
+Filter values within a range (inclusive).
+
+sql
+Копировать
+Редактировать
+SELECT *
+FROM students
+WHERE birth_date BETWEEN '2005-01-01' AND '2010-12-31';
+🔹 IN
+Check if a value is within a set.
+
+sql
+Копировать
+Редактировать
+SELECT *
+FROM students
+WHERE city IN ('New York', 'Buffalo', 'Rochester');
+✅ Practice
+Get students with last names starting with 'S'.
+
+Get students born between 2000 and 2005.
+
+Find students living in 'Boston', 'Miami', or 'Chicago'.
+
+Find students with no father’s phone number.
