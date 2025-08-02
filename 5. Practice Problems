@@ -1,0 +1,42 @@
+ Query 1
+Display all students who live in New York, Buffalo, or Rochester.
+
+✔ Method 1: Using IN
+sql
+Копировать
+Редактировать
+SELECT * FROM students
+WHERE city IN ('New York', 'Buffalo', 'Rochester');
+✔ Method 2: Using OR
+sql
+Копировать
+Редактировать
+SELECT * FROM students
+WHERE city = 'New York' OR city = 'Buffalo' OR city = 'Rochester';
+✔ Method 3: Using CASE
+sql
+Копировать
+Редактировать
+SELECT *
+FROM students
+WHERE 
+  CASE 
+    WHEN city = 'New York' THEN 1
+    WHEN city = 'Buffalo' THEN 1
+    WHEN city = 'Rochester' THEN 1
+    ELSE 0
+  END = 1;
+🚀 How to Use
+You can copy and paste the SQL queries into any SQL environment such as:
+
+MySQL
+
+PostgreSQL
+
+SQLite
+
+SQL Server
+
+Oracle
+
+Use sample datasets like students, employees, products, etc., to practice.
